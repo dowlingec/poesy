@@ -8,7 +8,7 @@ function NewPoemForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    alert("SUBMIT INFO")
+    // alert("SUBMIT INFO")
     const newPoem = {
       "title": title,
       "author": author,
